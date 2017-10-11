@@ -21,8 +21,8 @@ namespace TalentPool.Controllers
         //foreach (var d in dataList)
         //{
           //SelectListItem item = new SelectListItem();
-          //item.Text = d.GetType().GetProperty(columnName1).GetValue(d, null).ToString();
-          //tem.Value = d.GetType().GetProperty(columnName2).GetValue(d, null).ToString();
+          //tem.Value = d.GetType().GetProperty(columnValue).GetValue(d, null).ToString();
+          //item.Text = d.GetType().GetProperty(columnText).GetValue(d, null).ToString();
           //selectList.Add(item);
         //}
       //}
