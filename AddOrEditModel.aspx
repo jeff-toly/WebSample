@@ -12,7 +12,7 @@
   </script>
 </head>
 <body>
-	<%using (Html.BeginForm("SaveModel", "ModelIndex", FormMethod.Post, new { enctype = "multipart/form-data", onsubmit = "return CheckData();" })){ %>>
+  <%using (Html.BeginForm("SaveModel", "ModelIndex", FormMethod.Post, new { enctype = "multipart/form-data", onsubmit = "return CheckData();" })){ %>>
   <%: Html.EditorFor(model => model)%>
   or
   <%: Html.EditorFor(model => model.ItemList)%>
